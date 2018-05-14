@@ -2,11 +2,11 @@
 import React from 'react';
 import {Navbar, NavItem } from 'react-materialize';
 import logo from '../logo.svg'; 
-import '../css/navbar.css';
+import '../css/navbar.css'; 
 
 export default () => (  
   
-<Navbar className="navbar navbar-default" brand='OUR DAILY TECH BLOG' left> 
+<Navbar className="navbar navbar-default" brand='OUR DAILY TECH BLOG'  > 
  
 
   <img src="src/img/thomas-maestas.jpg" alt="picture of Thomas at Satellite Cafe, Albuquerque Central Ave. " className="profile"
